@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f808080"
+    tools:context=".InfoFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img"/>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@android:color/transparent"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_margin="8dp"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/boyimg"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="16dp"
+                        android:text="Xavier Prince"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="center"
+                        android:text="Follow"
+                        android:background="@drawable/rounded_button4"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:padding="4dp"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_like"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50"
+                        android:textSize="16sp"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_mail_black_24dp"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_account_box_black_24dp"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="8dp"
+                        android:textSize="14sp"
+                        android:background="@drawable/rounded_button6"
+                        android:hint="Enter your comments" />
+                    <Spinner
+                        android:id="@+id/dropdown"
+                        android:layout_gravity="center"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_margin="8dp"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/boyimg"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="16dp"
+                        android:text="Xavier Prince"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="center"
+                        android:text="Follow"
+                        android:background="@drawable/rounded_button4"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:padding="4dp"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_like"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50"
+                        android:textSize="16sp"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_mail_black_24dp"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_account_box_black_24dp"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="8dp"
+                        android:textSize="14sp"
+                        android:background="@drawable/rounded_button6"
+                        android:hint="Enter your comments" />
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_margin="8dp"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/boyimg"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="16dp"
+                        android:text="Xavier Prince"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="center"
+                        android:text="Follow"
+                        android:background="@drawable/rounded_button4"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:padding="4dp"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_like"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50"
+                        android:textSize="16sp"
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_mail_black_24dp"/>
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_margin="6dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_account_box_black_24dp"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="8dp"
+                        android:textSize="14sp"
+                        android:background="@drawable/rounded_button6"
+                        android:hint="Enter your comments" />
+                    <Spinner
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

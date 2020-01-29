@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "789461628670",
+    "firebase_url": "https://click-bata-5f964.firebaseio.com",
+    "project_id": "click-bata-5f964",
+    "storage_bucket": "click-bata-5f964.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789461628670:android:5b1ef2be671e4b4eb397af",
+        "android_client_info": {
+          "package_name": "com.example.clickbata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789461628670-na3cm945jk16dgq9hje788igrd8dg9rv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clickbata",
+            "certificate_hash": "f2ace4690c5bd54a845da845901d8f8d41f681c5"
+          }
+        },
+        {
+          "client_id": "789461628670-gkhq5of3mfjav55voudppkm0mgru7knb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCinGrp7K6bEiwfKVn5VG3KzDrBlK_WqYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789461628670-gkhq5of3mfjav55voudppkm0mgru7knb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

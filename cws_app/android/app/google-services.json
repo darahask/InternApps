@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "505599214186",
+    "firebase_url": "https://cws-app-15188.firebaseio.com",
+    "project_id": "cws-app-15188",
+    "storage_bucket": "cws-app-15188.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505599214186:android:35d912086e428f08380013",
+        "android_client_info": {
+          "package_name": "com.darahas.cws_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505599214186-matjlajg4bckvbpi2hsggqul35shoi4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhrmajKzWtVf1rr4HXdiesYGxGgTBhedg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505599214186-matjlajg4bckvbpi2hsggqul35shoi4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
