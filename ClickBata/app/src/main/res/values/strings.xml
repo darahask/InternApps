@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Click Bata</string>
     <string name="no_account">Don\'t have an account  <u>Create</u></string>
-    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="map_key" translatable="false">PUT MAP KEY HERE</string>
 
     <string-array name="list_arrays">
         <item>Share</item>
